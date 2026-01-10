@@ -39,7 +39,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    title: "Fitness Tracker",
+    title: "Sunny Exercise Tracker",
     tech: ["JavaScript", "MongoDB", "Express", "React", "Node.js"],
     description:
       "A full-stack web application for tracking gym workouts, allowing users to log exercises and view workout history through a simple, functional interface.",
