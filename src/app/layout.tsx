@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ana Berst Portfolio",
+  title: "Ana Berst - Portfolio",
 };
 
 export default function RootLayout({
