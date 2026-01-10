@@ -23,7 +23,7 @@ export const projects: Project[] = [
   },
   {
     title: "Pommi Timer",
-    tech: ["React", "TypeScript", "Vite", "Bootstrap"],
+    tech: ["TypeScript", "React", "Vite", "Bootstrap"],
     description:
       "A Pomodoro timer application built with React and TypeScript, designed to be simple, accessible, and pleasant to use for busy students. Features customizable work intervals, persistent settings, and light/dark themes.",
     githubUrl: "https://github.com/anaberst/pommi",
@@ -40,7 +40,7 @@ export const projects: Project[] = [
   },
   {
     title: "Fitness Tracker",
-    tech: ["MongoDB", "Express", "React", "Node.js"],
+    tech: ["JavaScript", "MongoDB", "Express", "React", "Node.js"],
     description:
       "A full-stack web application for tracking gym workouts, allowing users to log exercises and view workout history through a simple, functional interface.",
     githubUrl: "https://github.com/anaberst/exercise-tracker",

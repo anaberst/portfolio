@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="py-24">
+    <section className="bg-gray-50 pt-24 pb-16">
       <div className="mx-auto max-w-5xl px-4">
         <div className="flex items-start gap-10">
           {/* Photo */}
@@ -35,8 +35,8 @@ export default function Hero() {
                 href="https://github.com/anaberst"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border px-4 py-2 text-sm font-medium hover:bg-gray-100"
-                aria-label="Ana Berst GitHub profile"
+                className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-800 transitionrounded-md border px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                aria-label="Ana Berst GitHub Profile"
               >
                 GitHub
               </a>
@@ -44,14 +44,14 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/anaberst"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border px-4 py-2 text-sm font-medium hover:bg-gray-100"
+                className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-800 transition"
                 aria-label="Ana Berst LinkedIn Profile"
               >
                 LinkedIn
               </a>
               <a
                 href=""
-                className="rounded-md bg-black px-4 py-2 text-sm font-medium text-gray-600 cursor-not-allowed"
+                className="rounded-md border border-gray-200 bg-gray-100 px-5 py-2.5 text-sm font-medium text-gray-400 cursor-not-allowed"
                 aria-label="Ana Berst Resume"
               >
                 Resume (coming soon)
