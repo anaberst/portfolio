@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="bg-gray-50 dark:bg-gray-900 pt-24 pb-16">
+    <section className="bg-gray-100 dark:bg-gray-900 pt-24 pb-16">
       <div className="mx-auto max-w-5xl px-4">
         <div className="flex flex-col items-center gap-10 md:flex-row md:items-start">
           {/* Photo */}
@@ -20,7 +20,7 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
               Ana Berst
             </h1>
-            <p className="mt-6 text-lg text-gray-600 dark:text-gray-400">
+            <p className="mt-6 text-lg text-gray-800 dark:text-gray-400">
               Computer Science Student ·{" "}
               <span className="whitespace-nowrap">
                 Aspiring Software Engineer
@@ -33,7 +33,7 @@ export default function Hero() {
                 href="https://github.com/anaberst"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md bg-black px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-800 transition"
+                className="rounded-md bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-300 transition"
                 aria-label="Ana Berst GitHub Profile"
               >
                 GitHub
@@ -42,14 +42,14 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/anaberst"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-5 py-2.5 text-sm font-medium text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
+                className="rounded-md bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-300 transition"
                 aria-label="Ana Berst LinkedIn Profile"
               >
                 LinkedIn
               </a>
               <a
                 href=""
-                className="rounded-md border border-gray-200 bg-gray-100 px-5 py-2.5 text-sm font-medium text-gray-400 dark:text-gray-900 cursor-not-allowed"
+                className="rounded-md bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black cursor-not-allowed"
                 aria-label="Ana Berst Resume"
               >
                 Resume (coming soon)
