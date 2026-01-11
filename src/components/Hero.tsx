@@ -20,16 +20,11 @@ export default function Hero() {
             <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
               Ana Berst
             </h1>
-            <p className="mt-4 leading-relaxed text-lg text-gray-600 dark:text-gray-400">
+            <p className="mt-6 text-lg text-gray-600 dark:text-gray-400">
               Computer Science Student ·{" "}
               <span className="whitespace-nowrap">
                 Aspiring Software Engineer
               </span>
-            </p>
-            <p className="mt-6 leading-relaxed text-base text-gray-700 dark:text-gray-300">
-              I enjoy building clear, well-structured software and learning how
-              systems work at every layer, from low-level programming to modern
-              front-end applications.
             </p>
 
             {/* Links */}
