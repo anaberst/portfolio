@@ -1,4 +1,4 @@
-# :scroll: Ana Berst – Portfolio
+# :scroll: Ana Berst - Portfolio
 
 Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
