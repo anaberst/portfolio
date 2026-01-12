@@ -48,11 +48,13 @@ export default function Hero() {
                 LinkedIn
               </a>
               <a
-                href=""
-                className="rounded-md bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black cursor-not-allowed"
+                href="/Ana_Berst_Resume_Portfolio.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md bg-black dark:bg-white px-5 py-2.5 text-sm font-medium text-white dark:text-black hover:bg-gray-800 dark:hover:bg-gray-300 transition"
                 aria-label="Ana Berst Resume"
               >
-                Resume (coming soon)
+                Resume
               </a>
             </div>
           </div>
