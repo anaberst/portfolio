@@ -1,19 +1,17 @@
-# :scroll: Ana Berst - Portfolio
+# Ana Berst - Portfolio
 
-Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+Personal portfolio website showcasing selected software projects.
 
-## :sparkles: Features
+## Live Site
 
-- Responsive, accessible layout
-- Project-focused presentation
-- Deployed on Vercel
+https://ana-berst-portfolio.vercel.app
 
-## :pancakes: Tech Stack
+## Tech Stack
 
 - Next.js
 - TypeScript
 - Tailwind CSS
 
-## :link: Live Site
+## Analytics
 
-https://ana-berst-portfolio.vercel.app
+This site uses Vercel Analytics to monitor anonymous traffic and engagement.
