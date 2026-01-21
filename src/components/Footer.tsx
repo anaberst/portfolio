@@ -14,6 +14,10 @@ export default function Footer() {
               View on GitHub →
             </a>
           </p>
+          <p className="mt-8 leading-relaxed text-sm text-gray-800 dark:text-gray-300">
+            This site uses Vercel Analytics to monitor anonymous traffic and
+            engagement.
+          </p>
         </div>
       </div>
     </footer>
