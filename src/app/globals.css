@@ -1,19 +1,90 @@
+@config "../../tailwind.config.js";
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-bg: 250 248 244;
+  --color-surface: 244 239 231;
+  --color-card: 244 239 231;
+
+  --color-primary: 168 213 186;
+  --color-secondary: 207 232 214;
+
+  --color-accent: 255 142 114;
+  --color-accent-soft: 255 198 168;
+
+  --color-lavender: 216 204 232;
+
+  --color-text: 43 43 43;
+  --color-text-muted: 111 106 100;
+
+  --color-border: 221 214 206;
+  color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --color-bg: 24 23 22;
+  --color-surface: 35 33 32;
+  --color-card: 45 42 40;
+
+  --color-primary: 158 217 176;
+  --color-secondary: 127 184 155;
+
+  --color-accent: 255 139 107;
+  --color-accent-soft: 255 190 152;
+
+  --color-lavender: 124 110 141;
+
+  --color-text: 245 241 235;
+  --color-text-muted: 184 174 164;
+
+  --color-border: 74 71 67;
+  color-scheme: dark;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+  min-height: 100vh;
+  background-color: rgb(var(--color-bg));
+  background-image: linear-gradient(
+    160deg,
+    rgb(var(--color-primary) / 0.18),
+    rgb(var(--color-bg)) 45%,
+    rgb(var(--color-surface)) 75%,
+    rgb(var(--color-accent-soft) / 0.12)
+  );
+  color: rgb(var(--color-text));
+  font-family: var(--font-inter), sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+      circle at 12% 18%,
+      rgb(var(--color-primary) / 0.12),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 85% 25%,
+      rgb(var(--color-lavender) / 0.12),
+      transparent 50%
+    ),
+    radial-gradient(
+      circle at 40% 85%,
+      rgb(var(--color-accent-soft) / 0.14),
+      transparent 60%
+    );
+  opacity: 0.8;
+  z-index: 0;
+}
+
+body > * {
+  position: relative;
+  z-index: 1;
+}
+
+::selection {
+  background: rgb(var(--color-accent-soft));
+  color: rgb(var(--color-text));
 }
