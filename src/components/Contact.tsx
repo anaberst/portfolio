@@ -1,11 +1,16 @@
 export default function Contact() {
   return (
-    <section className="border-t border-gray-300 dark:border-gray-700 py-20">
+    <section className="relative py-16">
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-gradient-to-br from-accentSoft/10 via-transparent to-primary/8" />
       <div className="mx-auto max-w-5xl px-4">
-        <div className="max-w-2xl">
-          <h2 className="text-3xl font-bold">Contact</h2>
+        <div className="relative max-w-2xl">
+          <div className="pointer-events-none absolute -inset-4 -z-10 rounded-3xl border border-accentSoft/60 bg-surface/70 bg-dot-grid bg-[size:22px_22px] shadow-soft" />
+          <h2 className="flex items-center font-heading text-3xl font-bold">
+            <span className="mr-3 inline-block h-2.5 w-2.5 rounded-full bg-accentSoft" />
+            Contact
+          </h2>
 
-          <p className="mt-4 leading-relaxed text-base text-gray-700 dark:text-gray-300">
+          <p className="mt-4 leading-relaxed text-base text-textMuted">
             If you&apos;d like to connect or learn more about my work, feel free
             to reach out using the form below.
           </p>
@@ -20,7 +25,7 @@ export default function Contact() {
               name="name"
               placeholder="Your name"
               required
-              className="w-full rounded-md border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-black dark:text-gray-100 px-4 py-2 focus:border-black focus:outline-none"
+              className="w-full rounded-2xl border border-border/60 bg-surface text-text px-4 py-2 placeholder:text-textMuted/70 focus:border-accent focus:outline-none focus:ring-2 focus:ring-secondary/40"
             />
 
             <input
@@ -28,7 +33,7 @@ export default function Contact() {
               name="email"
               placeholder="Your email"
               required
-              className="w-full rounded-md border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-black dark:text-gray-100 px-4 py-2 focus:border-black focus:outline-none"
+              className="w-full rounded-2xl border border-border/60 bg-surface text-text px-4 py-2 placeholder:text-textMuted/70 focus:border-accent focus:outline-none focus:ring-2 focus:ring-secondary/40"
             />
 
             <textarea
@@ -36,12 +41,12 @@ export default function Contact() {
               placeholder="Your message"
               required
               rows={4}
-              className="w-full rounded-md border border-gray-300 dark:border-gray-600 bg-gray-50 dark:bg-gray-800 text-black dark:text-gray-100 px-4 py-2 focus:border-black focus:outline-none"
+              className="w-full rounded-2xl border border-border/60 bg-surface text-text px-4 py-2 placeholder:text-textMuted/70 focus:border-accent focus:outline-none focus:ring-2 focus:ring-secondary/40"
             />
 
             <button
               type="submit"
-              className="rounded-md bg-gray-800 px-5 py-2.5 text-sm font-medium text-white hover:bg-gray-700 transition"
+              className="rounded-2xl border border-border/60 bg-accent px-5 py-2.5 text-sm font-medium text-text transition hover:bg-accentSoft focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accentSoft/80 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
             >
               Send message
             </button>
